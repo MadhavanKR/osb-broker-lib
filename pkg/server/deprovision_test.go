@@ -8,9 +8,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/pmorie/osb-broker-lib/pkg/broker"
-	"github.com/pmorie/osb-broker-lib/pkg/metrics"
-	"github.com/pmorie/osb-broker-lib/pkg/rest"
+	"github.com/MadhavanKR/osb-broker-lib/pkg/broker"
+	"github.com/MadhavanKR/osb-broker-lib/pkg/metrics"
+	"github.com/MadhavanKR/osb-broker-lib/pkg/rest"
 
 	osb "sigs.k8s.io/go-open-service-broker-client/v2"
 	prom "github.com/prometheus/client_golang/prometheus"
